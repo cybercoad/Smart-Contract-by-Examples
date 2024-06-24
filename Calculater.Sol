@@ -14,13 +14,13 @@ contract Calculator {
         result +=num; //add initial value with result
     }
     function Sub(uint256 num) public{
-        result -=num;
+        result -=num; //Substract initial value with result
     }
     function mul(uint256 num) public{
-        result *=num;
+        result *=num; //Multiply initial value with result
     }
     function get() public view  returns(uint256){
-        return result;
+        return result; //add initial value with result
     }
 
 }
